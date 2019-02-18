@@ -1,0 +1,65 @@
+/*-------------------------------------------------------Heading*/
+
+#landing-view {
+    background-image: url('../images/heading.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+
+}
+
+.heading-text {
+   
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------------------Nav*/
+
+.navbar {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #e0dedc3b;
+}
